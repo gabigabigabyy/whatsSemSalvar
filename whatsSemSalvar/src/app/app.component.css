@@ -1,0 +1,90 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+.container{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+   
+    
+    
+}
+.footer{
+   
+      padding-bottom: 100px;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(6, 158, 107);
+    border-radius: 10px;
+
+    
+
+}
+.btn{
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding-top: 8px;
+    margin-top: 20px;
+}
+.copyright{
+    background:white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h2{
+    text-align: center;
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 15px;
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+label{
+    color: azure;
+}
+
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+    }
