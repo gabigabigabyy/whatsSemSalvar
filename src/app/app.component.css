@@ -88,3 +88,44 @@ label{
     min-height: 100%;
     position: relative;
     }
+
+    /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1024px) {
+    .row{
+      width: 600px;
+    }
+    .forms{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    h2{
+        font-size: 20px;
+    }
+
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .row{
+      width: 300px;
+      height: max-content;
+      margin: 5px;
+      padding-bottom: 20px;
+    }
+    .forms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+  }
+  p{
+      font-size: small;
+  }
+  h2{
+      font-size: 15px;
+  }
+}
+  
